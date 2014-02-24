@@ -15,12 +15,12 @@
 	</info>
 	<project>
 		<name>VBAToolKit</name>
-		<rootFolder>C:\Documents and Settings\Administrator\Desktop\VTK-LUCAS\VBAToolKit</rootFolder>
+		<rootFolder>C:\Documents and Settings\Demonn\Bureau\VBAToolKit</rootFolder>
 		<xmlRelativePath>Project\VBAToolKit.xml</xmlRelativePath>
 	</project>
 	<project>
-		<name>TestProject1</name>
-		<rootFolder>C:\Documents and Settings\Administrator\Desktop\VTK-LUCAS\VBAToolKit\Tests\TestProject1</rootFolder>
-		<xmlRelativePath>.\Project\TestProject1.xml</xmlRelativePath>
+		<name>MacroDEV</name>
+		<rootFolder>C:\Documents and Settings\Demonn\Mes documents\MacroDEV</rootFolder>
+		<xmlRelativePath>.\Project\MacroDEV.xml</xmlRelativePath>
 	</project>
 </rememberedProjects>

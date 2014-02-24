@@ -432,6 +432,6 @@
     </reference>
     <reference confIDs="c2">
         <name>VBAToolKit</name>
-        <path>C:\Documents and Settings\Administrator\Application Data\Microsoft\AddIns\VBAToolKit.xlam</path>
+        <path>C:\Documents and Settings\Demonn\Application Data\Microsoft\AddIns\VBAToolKit.xlam</path>
     </reference>
 </vtkConf>

@@ -178,8 +178,20 @@ Public Sub vtkRecreateConfiguration(projectName As String, configurationName As 
     ' Recreate references in the new Excel File
     On Error GoTo vtkRecreateConfiguration_referenceError
     Dim tmpRef As vtkReference
+    Dim Ref As Reference
+    Dim RefExists As Boolean
+    
     For Each tmpRef In conf.references
-        If tmpRef.guid <> "" Then
+        RefExists = False
+    
+        For Each Ref In Wb.VBProject.references
+            If tmpRef.guid = Ref.guid Then
+                RefExists = True
+                Exit For
+            End If
+        Next
+        
+        If tmpRef.guid <> "" And RefExists = False Then
             Wb.VBProject.references.AddFromGuid tmpRef.guid, 0, 0
         ElseIf tmpRef.path <> "" Then
             Wb.VBProject.references.AddFromFile tmpRef.path
